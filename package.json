@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-nz",
+  "version": "0.1.0",
+  "description": "NZ 的 Eslint 共享配置",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nicolaszhao/eslint-config-nz.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "NZ",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
