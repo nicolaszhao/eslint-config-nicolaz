@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nz",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "NZ 的 Eslint 共享配置",
   "main": "index.js",
   "repository": {
