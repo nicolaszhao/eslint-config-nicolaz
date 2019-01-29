@@ -63,3 +63,5 @@ typings/
 
 # example
 example/
+
+.editorconfig
