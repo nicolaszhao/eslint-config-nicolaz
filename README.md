@@ -7,7 +7,7 @@ NZ 的 Eslint 共享配置
 1. 安装 eslint 以及 eslint 相关插件：
 
     ```shell
-    npm install --save-dev eslint@^4.x eslint-plugin-import@^2.x eslint-plugin-react@^7.x eslint-plugin-jsx-a11y@^6.x
+    npm install --save-dev eslint@^5.x eslint-plugin-import@^2.x eslint-plugin-react@^7.x eslint-plugin-jsx-a11y@^6.x
     ```
 
 2. 安装该配置器：
@@ -20,7 +20,7 @@ NZ 的 Eslint 共享配置
 
     ```json
     {
-      "extends": "eslint-config-nz"
+      "extends": "nz"
     }
     ```
 
@@ -38,7 +38,7 @@ NZ 的 Eslint 共享配置
 
    ```diff
    {
-     "extends": "eslint-config-nz",
+     "extends": "nz",
    + "parser": "babel-eslint"
    }
    ```
