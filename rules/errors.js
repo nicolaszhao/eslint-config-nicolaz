@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
 
-    // 禁用 console
-    'no-console': 1
+    // 是否禁用 console
+    'no-console': 'warn'
   }
 };

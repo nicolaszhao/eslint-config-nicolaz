@@ -1,18 +1,23 @@
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true,
-      experimentalObjectRestSpread: true
+      jsx: true
     }
   },
   env: {
     browser: true,
     node: true,
+    commonjs: true,
     es6: true,
+    worker: true,
+    amd: true,
+    mocha: true,
+    jest: true,
+    qunit: true,
     jquery: true,
-    mocha: true
+    shelljs: true
   },
   plugins: [
     'import',
@@ -25,7 +30,7 @@ module.exports = {
     './rules/errors.js',
     './rules/best-practices.js',
     './rules/variables.js',
-    './rules/styles.js',
+    './rules/style.js',
     './rules/es6.js',
     './rules/import.js',
     './rules/jsx-a11y.js',
