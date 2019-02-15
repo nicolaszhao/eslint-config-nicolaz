@@ -60,8 +60,7 @@ typings/
 # IDE config files
 .idea/
 .vscode/
-
-# example
-example/
-
 .editorconfig
+
+# eslint-config-nz-base package
+base/
