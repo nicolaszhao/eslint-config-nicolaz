@@ -4,27 +4,30 @@ NZ 的 Eslint 共享配置
 
 ## 如何使用
 
-1. 安装 eslint 以及 eslint 相关插件：
+### 安装
 
-    ```shell
-    npm install --save-dev eslint@^5.x eslint-plugin-import@^2.x eslint-plugin-react@^7.x eslint-plugin-jsx-a11y@^6.x
-    ```
+#### npm 5+
 
-2. 安装该配置器：
+```
+npx install-peerdeps --dev eslint-config-nz
+```
 
-    ```shell
-    npm install --save-dev eslint-config-nz
-    ```
+#### npm < 5
 
-3. 添加配置文件 `.eslintrc.json` 到项目根目录：
+```
+npm install -g install-peerdeps
+install-peerdeps --dev eslint-config-nz
+```
 
-    ```json
-    {
-      "extends": "nz"
-    }
-    ```
+### 配置
 
+创建并配置 `.eslintrc` 文件：
 
+```
+{
+  "extends": "nz"
+}
+```
 
 ## 如何支持实验性的 ECMA 语法特性检查
 
