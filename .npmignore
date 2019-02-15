@@ -61,6 +61,3 @@ typings/
 .idea/
 .vscode/
 .editorconfig
-
-# eslint-config-nz-base package
-base/
