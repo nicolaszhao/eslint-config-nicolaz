@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nicolaz",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Nicolaz's JavaScript Eslint config",
   "main": "index.js",
   "repository": {
