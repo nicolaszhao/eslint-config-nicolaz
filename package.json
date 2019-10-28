@@ -1,36 +1,23 @@
 {
-  "name": "eslint-config-nz",
-  "version": "1.1.0",
-  "description": "NZ 的 Eslint 共享配置",
-  "main": "index.js",
+  "name": "nicolaz-style",
+  "version": "0.1.0",
+  "description": "Personal shareable eslint configs.",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "npm run bootstrap"
+  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nicolaszhao/eslint-config-nz.git"
+    "url": "git+ssh://git@github.com:nicolaszhao/eslint-config-nicolaz.git"
   },
-  "keywords": [
-    "eslint",
-    "eslintconfig"
-  ],
   "author": "NZ",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-plugin-import": "^2.15.0",
-    "eslint-plugin-jsx-a11y": "^6.2.0",
-    "eslint-plugin-react": "^7.12.4"
-  },
   "bugs": {
-    "url": "https://github.com/nicolaszhao/eslint-config-nz/issues"
+    "url": "https://github.com/nicolaszhao/eslint-config-nicolaz/issues"
   },
-  "homepage": "https://github.com/nicolaszhao/eslint-config-nz#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "eslint-config-nz-base": "^1.0.0"
-  },
+  "homepage": "https://github.com/nicolaszhao/eslint-config-nicolaz#readme",
   "devDependencies": {
-    "eslint": "^5.13.0",
-    "eslint-plugin-import": "^2.16.0"
+    "lerna": "^3.16.4"
   }
 }
