@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-nicolaz-base",
+  "version": "0.4.0",
+  "description": "Ncolaz's base JavaScript Eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nicolaszhao/eslint-config-nicolaz.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "NZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolaszhao/eslint-config-nicolaz/issues"
+  },
+  "homepage": "https://github.com/nicolaszhao/eslint-config-nicolaz#readme",
+  "peerDependencies": {
+    "eslint": "5.x || 6.x",
+    "eslint-plugin-import": "2.x"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0"
+  }
+}
