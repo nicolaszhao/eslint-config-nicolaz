@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-nicolaz",
+  "version": "0.4.0",
+  "description": "Nicolaz's JavaScript Eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/nicolaszhao/eslint-config-nicolaz.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "NZ",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "5.x || 6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-nicolaz-base": "^0.4.0"
+  }
+}
