@@ -9,11 +9,18 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-props-no-spreading.md
+    'react/jsx-props-no-spreading': ['error', {
+      html: 'enforce',
+      custom: 'ignore',
+      exceptions: [],
+    }],
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
     'react/prop-types': 'off',
 
     // https://www.npmjs.com/package/eslint-plugin-react-hooks
     // https://reactjs.org/docs/hooks-rules.html
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
   }
 };
