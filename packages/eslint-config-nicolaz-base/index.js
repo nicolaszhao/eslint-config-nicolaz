@@ -39,6 +39,10 @@ module.exports = {
     // https://cn.eslint.org/docs/rules/no-plusplus
     'no-plusplus': 'off',
 
+    // 允许类方法不使用 this，比如 React，它的一些生命周期方法中可能未使用到 this
+    // https://eslint.org/docs/rules/class-methods-use-this
+    'class-methods-use-this': 'off',
+
     // 允许 require 的参数是动态生成的
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
     'import/no-dynamic-require': 'off',
