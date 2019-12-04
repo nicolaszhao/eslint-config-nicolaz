@@ -1,6 +1,6 @@
 # eslint-config-nicolaz
 
-## 快速上手
+## 上手
 
 ### 安装
 

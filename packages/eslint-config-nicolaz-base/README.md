@@ -1,6 +1,6 @@
 # eslint-config-nicolaz-base
 
-## 快速上手
+## 上手
 
 ### 安装
 
@@ -37,7 +37,7 @@ npm install --save-dev babel-eslint
 
 如果你安装了 `eslint-plugin-vue` 来检查你的 Vue 项目，你需要修改上面的 `parser` 选项。
 
-因为该插件依赖 `vue-eslint-parser` 来解析 `*.vue ` 文件，如果重写了 `parser` 选项，就会导致该插件无法工作，参见：[eslint-plugin-vue 用户手册](https://eslint.vuejs.org/user-guide/#usage)
+因为该插件依赖 `vue-eslint-parser` 来解析 `*.vue ` 文件，如果重写了 `parser` 选项，就会导致该插件无法工作，参见：[eslint-plugin-vue 用户手册](https://eslint.vuejs.org/user-guide/#usage)。
 
 ```diff
 {
@@ -47,8 +47,7 @@ npm install --save-dev babel-eslint
   ],
 - "parser": "babel-eslint",
   "parserOptions": {
-+   "parser": "babel-eslint",
-    "sourceType": "module"
++   "parser": "babel-eslint"
   }
 }
 ```
