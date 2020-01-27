@@ -6,6 +6,12 @@ module.exports = {
   ],
   rules: {
 
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/click-events-have-key-events.md
+    "jsx-a11y/click-events-have-key-events": "off",
+
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/interactive-supports-focus.md
+    "jsx-a11y/interactive-supports-focus": "warn",
+
     // 目前使用下来有些问题:
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/issues/511
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/label-has-associated-control.md
