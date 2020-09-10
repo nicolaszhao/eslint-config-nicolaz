@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/nicolaszhao/eslint-config-nicolaz#readme",
   "peerDependencies": {
-    "eslint": "5.x || 6.x",
+    "eslint": "5.x || 6.x || 7.x",
     "eslint-plugin-import": "2.x"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^14.0.0"
+    "eslint-config-airbnb-base": "^14.2.0"
   }
 }

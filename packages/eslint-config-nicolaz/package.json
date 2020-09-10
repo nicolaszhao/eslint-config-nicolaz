@@ -18,14 +18,14 @@
   },
   "homepage": "https://github.com/nicolaszhao/eslint-config-nicolaz#readme",
   "peerDependencies": {
-    "eslint": "5.x || 6.x",
+    "eslint": "5.x || 6.x || 7.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "1.x"
+    "eslint-plugin-react-hooks": "^4"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb": "^18.2.0",
     "eslint-config-nicolaz-base": "^0.5.5"
   }
 }
