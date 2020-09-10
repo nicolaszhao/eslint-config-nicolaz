@@ -52,6 +52,29 @@ npm install --save-dev babel-eslint
 }
 ```
 
+## 混合 TypeScript
+
+1、安装 [TypeScript ESLint](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) 插件相关的包：
+
+```
+npm i --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
+2、配置 `.eslintrc`
+
+```diff
+{
+  "extends": "nicolaz-base",
++ "overrides": [
++   {
++     "files": ["**/*.ts?(x)"],
++     "extends": ["plugin:@typescript-eslint/recommended"]
++   }
++ ],
+}
+```
+
 ## License
 
 [MIT](https://github.com/nicolaszhao/eslint-config-nicolaz/blob/master/LICENSE) © [nicolaszhao](https://github.com/nicolaszhao)
+
