@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nicolaz",
-  "version": "0.6.5",
+  "version": "0.7.0",
   "description": "Nicolaz's JavaScript Eslint config",
   "main": "index.js",
   "repository": {
@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-nicolaz-base": "^0.5.5"
+    "eslint-config-nicolaz-base": "^0.6.0"
   }
 }
