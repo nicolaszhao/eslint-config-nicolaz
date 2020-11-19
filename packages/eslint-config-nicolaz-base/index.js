@@ -43,6 +43,10 @@ module.exports = {
     // https://eslint.org/docs/rules/class-methods-use-this
     'class-methods-use-this': 'off',
 
+    // require parens in arrow function arguments
+    // https://eslint.org/docs/rules/arrow-parens
+    'arrow-parens': ['error', 'as-needed'],
+
     // 允许 require 的参数是动态生成的
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-dynamic-require.md
     'import/no-dynamic-require': 'off',
